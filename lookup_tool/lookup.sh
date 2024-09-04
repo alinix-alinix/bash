@@ -5,7 +5,7 @@ HOSTS_FILE=$(cat hosts.txt)
 # Файл для вывода результата
 OUTPUT_FILE="hosts_info.csv"
 # Пользователь для подключения по SSH
-SSH_USER="s.stepanov"
+SSH_USER="username"
 
 # Заголовок таблицы
 echo "fqdn;server_type;crontab;ip_addresses;cpu_cores;ram_size_GB;disk_count;disk_sizes_gb" > "$OUTPUT_FILE"

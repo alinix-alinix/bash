@@ -1,0 +1,3 @@
+host1.fqdn.local
+host2.fqdn.local
+host3.fqdn.local
